@@ -17,6 +17,7 @@
                 <a class="btn btn-primary float-right" href="{% url 'diary:diary_create' %}">新規作成</a>
             </div>
             <div class = "search-btn" >
+                <!--検索バーの追加-->
                 <form method="get">
                     <input id="sbox5" type="search" value="{{ request.GET.keyword }}" name="keyword" type="text" placeholder="キーワードを入力" size="40">
                     <input id="sbtn5" type="submit" value="検索" />
